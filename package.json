@@ -1,0 +1,25 @@
+{
+  "name": "intro-to-jest",
+  "version": "0.0.1",
+  "description": "Intro to automated testing with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "prettier --write --single-quote --print-width 120"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackurben/intro-to-jest.git"
+  },
+  "author": "Zack Urben <zackurben@gmail.com> (http://zackurben.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zackurben/intro-to-jest/issues"
+  },
+  "homepage": "https://github.com/zackurben/intro-to-jest#readme",
+  "private": true,
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "prettier": "^1.5.3"
+  }
+}
