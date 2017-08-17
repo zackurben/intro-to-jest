@@ -1,7 +1,6 @@
 'use strict';
 
-const pkg = require('./');
-const sum = pkg.sum;
+const sum = require('./').sum;
 
 test('sum without arguments returns 0', () => {
   expect(sum()).toBe(0);
